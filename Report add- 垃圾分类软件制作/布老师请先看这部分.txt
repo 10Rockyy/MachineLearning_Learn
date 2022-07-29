@@ -1,0 +1,23 @@
+布老师您好，这个是补充的一个报告，里面一共有：
+
+Report add-垃圾分类软件制作.md/PDF ------报告（markdown报告里的图片好像在gitee上显示不了，所以就再上传了一份PDF报告）
+演示.mp4 ------软件演示视频
+Project_LAJI ------项目工程文件夹
+
+Plus：
+项目的环境为在“Anaconda”文件夹中的“envs”文件夹创建虚拟环境（conda create -n Project_LAJI python==3.8)
+然后激活虚拟环境操作(conda activate Project_LAJI)
+利用Pip安装第三方库一共有：tensorflow、pyqt5、pillow、opencv-python即可
+
+
+## 建议
+做的很好！可以把这个项目单独做一个项目，里面的README.md写成项目的介绍（不需要体现报告），可以参考 https://gitee.com/pi-lab/pi-det
+
+需要改进的地方：
+1. 项目的整体介绍，环境配置、库的安装，如何运行，如何训练，设计思路、技术细节，参考资料等
+2. 演示视频很好，就是能裁剪一下视频更好，另外把主要的操作，做成gif，直接放在项目的README.md这样就能直接能看到。例如可以使用gif软件gifcurry
+3. 核心目标是，让大家能够使用你写的软件，或者在你的程序基础上改进
+4. Project_LAJI，最好用英文名字
+5. 可以把程序的架构想想，看看如何优化。例如GUI如何机器学习的分离，如何实现插件化（你的这个程序可以支持其他的功能，除了图像分类，可以支持物体识别。。。）。可以借鉴学习 
+    - Module & Plugin demo for Python https://gitee.com/pi-lab/code_cook/tree/master/python/modules
+    - 设计模式与UML https://gitee.com/pi-lab/learn_programming/tree/master/5_advanced/4_DesignPattern_UML
